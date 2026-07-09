@@ -32,7 +32,7 @@ jobs:
         platforms: linux/amd64
         push: true
         no-cache: true
-        tags: opendronemap/odm:gpu
+        tags: library/odm:gpu
     # Trigger NodeODM build
     - name: Dispatch NodeODM Build Event
       id: nodeodm_dispatch
