@@ -36,4 +36,6 @@ jobs:
         platforms: linux/amd64
         push: true
         no-cache: true
-        tags: chwy907/odm:gpu-${{ env.BUILD_TIME }}
+        tags: |
+          chwy907/odm:gpu-${{ env.BUILD_TIME }}
+          chwy907/odm:gpu
